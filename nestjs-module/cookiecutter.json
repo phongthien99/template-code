@@ -1,0 +1,6 @@
+{
+  "moduleName": "module",
+  "className": "{{ cookiecutter.moduleName|replace(' ', '') }}",
+  "fileName": "{{ cookiecutter.moduleName|lower|replace(' ', '-') }}",
+  "fieldPrefix": "{{ cookiecutter.className[0].lower() + cookiecutter.className[1:] }}"
+}

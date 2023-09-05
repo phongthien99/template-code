@@ -1,0 +1,5 @@
+package dto
+
+type Create{{cookiecutter.className}}  struct {
+	Name string
+}
